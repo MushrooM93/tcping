@@ -60,7 +60,7 @@ int main (int argc, char *argv[]) {
                 if (cptr == optarg)
                     usage(argv[0]);
                  break;
-            case 'p':
+            case 'v':
                  if(!strcmp(optarg, "6") ){
                       hints.ai_family = AF_INET6;
                 }
@@ -166,7 +166,7 @@ int main (int argc, char *argv[]) {
 
 
 void usage(char *prog) {
-    fprintf(stderr, "error: Usage: %s [-q] [-t timeout_sec] [-u timeout_usec] [-p4|6] <host> <port>\n", prog);
+    fprintf(stderr, "error: Usage: %s [-q] [-t timeout_sec] [-u timeout_usec] [-v4|6] <host> <port>\n", prog);
         exit(-1);
 }
 
