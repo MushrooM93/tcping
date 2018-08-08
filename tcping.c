@@ -1,3 +1,7 @@
+/*Modified in 2018 8.8
+Can be used normally in RHEL7.5 and fedora28*/
+
+
 #define VERSION 1.3.5
 
 #include <sys/types.h>
