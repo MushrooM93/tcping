@@ -43,7 +43,7 @@ int main (int argc, char *argv[]) {
     hints.ai_family = AF_UNSPEC;
     hints.ai_socktype = SOCK_STREAM;
 
-    while((c = getopt(argc, argv, "qt:u:p:")) != -1) {
+    while((c = getopt(argc, argv, "qt:u:v:")) != -1) {
         switch(c) {
             case 'q':
                 verbose = 0;
